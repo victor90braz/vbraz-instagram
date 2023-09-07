@@ -4,7 +4,8 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "start": "php artisan serve"
+        "start": "php artisan serve",
+        "migrate-db": "php artisan migrate"
     },
     "devDependencies": {
         "axios": "^1.1.2",
