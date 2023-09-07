@@ -5,7 +5,8 @@
         "dev": "vite",
         "build": "vite build",
         "start": "php artisan serve",
-        "migrate-db": "php artisan migrate"
+        "migrate-db": "php artisan migrate",
+        "rollback-db": "php artisan migrate:rollback"
     },
     "devDependencies": {
         "axios": "^1.1.2",
