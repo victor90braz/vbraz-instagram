@@ -7,7 +7,7 @@
         "start": "php artisan serve",
         "migrate-db": "php artisan migrate",
         "rollback-db": "php artisan migrate:rollback",
-        "create": "php artisan make:controller"
+        "make-controller": "php artisan make:controller"
     },
     "devDependencies": {
         "axios": "^1.1.2",
