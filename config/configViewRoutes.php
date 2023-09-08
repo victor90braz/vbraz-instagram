@@ -1,8 +1,8 @@
 <?php
 
-$routes = [
+$defineRoutes = [
     'mainPage' => '/',
     'aboutUsPage' => '/about-us',
 ];
 
-return $routes;
+return $defineRoutes;
