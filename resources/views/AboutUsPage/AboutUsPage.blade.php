@@ -21,6 +21,7 @@
             <nav>
                 <a href="{{ config('routes.mainPage') }}">Main Page</a>
                 <a href="{{ config('routes.aboutUsPage') }}">About US</a>
+                <a href="{{ config('routes.storePage') }}">Store</a>
             </nav>
             <H1>VBRAZ INSTAGRAM</H1>
             <h2>About US</h2>
