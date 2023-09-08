@@ -19,8 +19,8 @@
     <body>
         <header>
             <nav>
-                <a href="/">Main Page</a>
-                <a href="/about-us">About US</a>
+                <a href="{{ config('configViewRoutes.mainPage') }}">Main Page</a>
+                <a href="{{ config('configViewRoutes.aboutUsPage') }}">About US</a>
             </nav>
             <H1>VBRAZ INSTAGRAM</H1>
         </header>
