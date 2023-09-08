@@ -2,7 +2,7 @@
 
 $defineRoutes = [
     'mainPage' => '/',
-    'aboutUsPage' => '/about-us2',
+    'aboutUsPage' => '/about-us',
 ];
 
 return $defineRoutes;
