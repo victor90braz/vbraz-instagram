@@ -3,8 +3,8 @@
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
-const RouteHomePage = '/';
-const RouteAboutUsPage = '/about-us';
+$routeHomePage = config('routes.mainPage');
+$routeAboutUsPage = config('routes.aboutUsPage');
 
-Route::get(RouteHomePage, [UserController::class, "RenderMainPage"]);
-Route::get(RouteAboutUsPage , [UserController::class, "RenderAboutUsPage"]);
+Route::get($routeHomePage, [UserController::class, "RenderMainPage"]);
+Route::get($routeAboutUsPage , [UserController::class, "RenderAboutUsPage"]);

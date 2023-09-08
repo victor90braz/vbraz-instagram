@@ -1,8 +1,8 @@
 <?php
 
-$paths = [
+$definePaths = [
     'mainPage' => 'MainPage/MainPage',
     'aboutUsPage' => 'AboutUsPage/AboutUsPage',
 ];
 
-return $paths;
+return $definePaths;

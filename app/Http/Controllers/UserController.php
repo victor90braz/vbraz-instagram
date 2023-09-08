@@ -10,8 +10,8 @@ class UserController extends Controller {
 
     public function __construct() {
         // Use the config function to access configuration values
-        $this->mainPageView = config('configViewPaths.mainPage');
-        $this->aboutUsView = config('configViewPaths.aboutUsPage');
+        $this->mainPageView = config('paths.mainPage');
+        $this->aboutUsView = config('paths.aboutUsPage');
     }
 
     public function RenderMainPage () {
