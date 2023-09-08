@@ -23,6 +23,12 @@
                 <a href="/about-us">About US</a>
             </nav>
             <H1>VBRAZ INSTAGRAM</H1>
+            <h2>About US</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laborum libero blanditiis dicta omnis aspernatur corrupti perferendis corporis cumque voluptate,
+                saepe delectus ipsa nisi placeat eaque non quo in perspiciatis quos.
+            </p>
         </header>
     </body>
 </html>
