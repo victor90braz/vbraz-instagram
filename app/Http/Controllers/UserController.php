@@ -5,14 +5,20 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 class UserController extends Controller {
-    const PATH_MAIN_PAGE_VIEW = "MainPage/MainPage";
-    const PATH_ABOUT_US_VIEW = "AboutUsPage/AboutUsPage";
+    private $mainPageView;
+    private $aboutUsView;
 
-    static function RenderMainPage () {
-        return view(self::PATH_MAIN_PAGE_VIEW);
+    public function __construct() {
+        // Use the config function to access configuration values
+        $this->mainPageView = config('configViewPaths.mainPage');
+        $this->aboutUsView = config('configViewPaths.aboutUsPage');
     }
 
-    static function RenderAboutUsPage () {
-        return view(self::PATH_ABOUT_US_VIEW);
+    public function RenderMainPage () {
+        return view($this->mainPageView);
+    }
+
+    public function RenderAboutUsPage () {
+        return view($this->aboutUsView);
     }
 }
