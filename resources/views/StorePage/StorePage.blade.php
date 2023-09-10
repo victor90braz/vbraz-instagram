@@ -24,11 +24,6 @@
                 <a href="{{ config('routes.storePage') }}">Store</a>
             </nav>
             <H1>VBRAZ INSTAGRAM</H1>
-            <h2>Store</h2>
-
-            <div class="profile-picture">
-                <img src="store_profile_picture.jpg" alt="Store Profile Picture">
-            </div>
             <h1 class="store-name">My Awesome Store</h1>
             <p class="store-bio">Welcome to our Instagram Store! Discover amazing products.</p>
             <ul class="store-stats">
@@ -46,7 +41,7 @@
             </div>
 
             <div class="post">
-                <img src="post_image2.jpg" alt="Post 2">
+                <img src="{{ asset('/public/images/post-example.jpeg') }}" width="50px" height="50px" alt="Post 2">
                 <p class="post-description">Special offer this week!</p>
             </div>
 
